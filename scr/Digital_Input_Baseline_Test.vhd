@@ -207,7 +207,7 @@ signal Two_ms_i                         : STD_LOGIC;
        
        -- Pre Test Mapping
        GPIO_0(0)          <= nCS_Output_1_i; 
-       Miso_i             <= GPIO_0(11);
+       Miso_i             <= GPIO_0(1);
        GPIO_0(3)          <= Mosi_i; 
        GPIO_0(5)          <= Sclk_i;   
        GPIO_0(7)          <= nCS_Output_2_i;         
