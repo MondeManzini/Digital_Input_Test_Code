@@ -1,0 +1,10 @@
+
+State Machine - |Digital_Input_Baseline_Test|SPI_In_Output:SPI_In_Output_1|SPI_Drive_state
+Name SPI_Drive_state.Last_Sclk SPI_Drive_state.CS_off SPI_Drive_state.Cycle_cnt SPI_Drive_state.RE_1 SPI_Drive_state.FE_1 SPI_Drive_state.CS_on SPI_Drive_state.idle 
+SPI_Drive_state.idle 0 0 0 0 0 0 0 
+SPI_Drive_state.CS_on 0 0 0 0 0 1 1 
+SPI_Drive_state.FE_1 0 0 0 0 1 0 1 
+SPI_Drive_state.RE_1 0 0 0 1 0 0 1 
+SPI_Drive_state.Cycle_cnt 0 0 1 0 0 0 1 
+SPI_Drive_state.CS_off 0 1 0 0 0 0 1 
+SPI_Drive_state.Last_Sclk 1 0 0 0 0 0 1 
